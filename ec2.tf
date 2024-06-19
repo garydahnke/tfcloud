@@ -5,11 +5,3 @@ resource "aws_instance" "ec2_virginia" {
         Name = "Virginia"
     }
 }
-
-resource "aws_instance" "ec2_ohio" {
-    ami = "ami-033fabdd332044f06"
-    instance_type = "t2.micro"
-    tags = {
-        Name = "Ohio"
-    }
-}
