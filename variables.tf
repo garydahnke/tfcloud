@@ -3,6 +3,10 @@ variable "instance_type_list" {
     default = ["t2.small","t2.micro","t2.large","t2.medium"]
 }
 
+variable "servername" {
+    type = string
+    default = "test"
+
 variable "ami_map" {
     type = map(string)
     default = {
