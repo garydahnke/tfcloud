@@ -6,6 +6,7 @@ variable "instance_type_list" {
 variable "servername" {
     type = string
     default = "test"
+}
 
 variable "ami_map" {
     type = map(string)
